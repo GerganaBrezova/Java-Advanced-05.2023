@@ -30,9 +30,9 @@ public class BasicQueueOperations_04 {
         } else {
             //System.out.println(Collections.min(queueNumbers));
             int smallestNum = Integer.MAX_VALUE;
-            for (Integer stackNumber : queueNumbers) {
-                if (stackNumber < smallestNum) {
-                    smallestNum = stackNumber;
+            for (Integer queueNumber : queueNumbers) {
+                if (queueNumber < smallestNum) {
+                    smallestNum = queueNumber;
                 }
             }
             System.out.println(smallestNum);
